@@ -3,7 +3,8 @@
 ## Data Preparation
 
 1. **Selecting Photos**:
-   - Choose 9 high-quality photos of penguins to create my dataset. 
+   - Choose 9 photos of penguins to create my dataset. 
+<img width="888" alt="截圖 2024-06-26 凌晨12 15 34" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/44985b77-8efa-4c52-8597-b6582bf9c999">
 
 2. **Resizing Images**:
    - Use an image editing tool or script to resize all selected images to a uniform size of 512 x 512 pixels. This step ensures that the input data is consistent, which is crucial for training the model effectively.
@@ -27,6 +28,12 @@
      - Follow the installation guide specific to my operating system. For Mac users, refer to the guide on [iMaster](https://www.imaster.org/%e5%a6%82%e4%bd%95%e5%9c%a8-mac-%e4%b8%8a%e5%ae%89%e8%a3%9d-stable-diffusion-%e8%bb%9f%e9%ab%94%ef%bc%9f/) to install Stable Diffusion software.
      - Configure webUI to use the Lora model I trained.
      - Test the setup by using various prompts to generate images and ensure the model works as expected.
+     
+<img width="888" alt="截圖 2024-06-25 下午6 32 36" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d02bb18a-965e-4767-a7e7-90fcf0f05ebe">
+
+
+<img width="888" alt="截圖 2024-06-25 下午6 39 41" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d6bbc901-7108-49c4-baa7-6d0e36a538b6">
+
 
 ## wandb Integration
 
