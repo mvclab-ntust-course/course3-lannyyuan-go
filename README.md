@@ -20,7 +20,7 @@
 ## Model Training and Image Generation
 
 1. **Training the Model**:
-   - I will use the Trainer tool from Kohya Colabs to train my model. Here’s how:
+   - Use the Trainer tool from Kohya Colabs to train my model. Here’s how:
      - Access the Trainer tool from [Kohya Colabs](https://github.com/hollowstrawberry/kohya-colab).
      - Configure the training settings: set the number of epochs to 20.
      - Start the training process and monitor progress to ensure the model trains correctly.
@@ -28,7 +28,7 @@
 2. **Using the Final Model with webUI**:
    - Once training is complete, take the final model from the last epoch and integrate it with the webUI.
      - Follow the installation guide specific to my operating system. For Mac users, refer to the guide on [iMaster](https://www.imaster.org/%e5%a6%82%e4%bd%95%e5%9c%a8-mac-%e4%b8%8a%e5%ae%89%e8%a3%9d-stable-diffusion-%e8%bb%9f%e9%ab%94%ef%bc%9f/) to install Stable Diffusion software.
-     - Configure webUI to use the Lora model I trained.
+     - Configure webUI to use the trained Lora model .
      - Test the setup by using various prompts to generate images and ensure the model works as expected.
      
    <div align="center">
@@ -41,12 +41,12 @@
 ## wandb Integration
 
 1. **Setting Up wandb**:
-   - Sign up for a [wandb account](https://wandb.ai/site) if I don’t have one.
+   - Sign up for a [wandb account](https://wandb.ai/site) .
    - Install the wandb Python package: `pip install wandb`.
    - Initialize wandb in my script:
      ```python
      import wandb
-     wandb.init(project="my_project_name")
+     wandb.init(project="project_name")
      ```
 
 2. **Modifying Training Scripts**:
