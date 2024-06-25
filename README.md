@@ -4,7 +4,9 @@
 
 1. **Selecting Photos**:
    - Choose 9 photos of penguins to create my dataset. 
-<img width="888" alt="截圖 2024-06-26 凌晨12 15 34" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/44985b77-8efa-4c52-8597-b6582bf9c999">
+   <div align="center">
+       <img width="888" alt="截圖 2024-06-26 凌晨12 15 34" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/44985b77-8efa-4c52-8597-b6582bf9c999">
+   </div>
 
 2. **Resizing Images**:
    - Use an image editing tool or script to resize all selected images to a uniform size of 512 x 512 pixels. This step ensures that the input data is consistent, which is crucial for training the model effectively.
@@ -29,11 +31,12 @@
      - Configure webUI to use the Lora model I trained.
      - Test the setup by using various prompts to generate images and ensure the model works as expected.
      
-<img width="888" alt="截圖 2024-06-25 下午6 32 36" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d02bb18a-965e-4767-a7e7-90fcf0f05ebe">
-
-
-<img width="888" alt="截圖 2024-06-25 下午6 39 41" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d6bbc901-7108-49c4-baa7-6d0e36a538b6">
-
+   <div align="center">
+       <img width="888" alt="截圖 2024-06-25 下午6 32 36" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d02bb18a-965e-4767-a7e7-90fcf0f05ebe">
+   </div>
+   <div align="center">
+       <img width="888" alt="截圖 2024-06-25 下午6 39 41" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/d6bbc901-7108-49c4-baa7-6d0e36a538b6">
+   </div>
 
 ## wandb Integration
 
@@ -49,5 +52,10 @@
 2. **Modifying Training Scripts**:
    - Manually modify the `train_network.py` and `train_network_wrapper.py` scripts from the Trainer tool to log metrics and results to wandb. 
 
+3. **My Training Result**:
+   
+   <div align="center">
+       <img width="426" alt="截圖 2024-06-26 凌晨12 19 26" src="https://github.com/mvclab-ntust-course/course3-lannyyuan-go/assets/122262894/0df150a8-aca0-4ef0-b93f-652749233cd1">
+   </div>
 
 
